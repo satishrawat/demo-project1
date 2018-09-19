@@ -23,7 +23,7 @@
   "containerDefinitions": [
     {
       "name": "php-app",
-      "image": "514438259876.dkr.ecr.us-east-2.amazonaws.com/techmart-php-fpm:5.6",
+      "image": "514438259876.dkr.ecr.us-east-2.amazonaws.com/techmart-php-fpm",
       "essential": true,
       "memoryReservation": 512,
       "mountPoints": [
