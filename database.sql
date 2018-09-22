@@ -1,6 +1,6 @@
-create database test;
+create database indulge;
 
-use test;
+use indulge;
 
 CREATE TABLE `users` (
   `id` int(11) NOT NULL auto_increment,

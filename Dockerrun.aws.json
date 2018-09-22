@@ -47,7 +47,7 @@
       "name": "nginx-proxy",
       "image": "514438259876.dkr.ecr.us-east-2.amazonaws.com/satish-nginx:latest",
       "essential": true,
-      "memory": 128,
+      "memory": 512,
       "portMappings": [
         {
           "hostPort": 80,
