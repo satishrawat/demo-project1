@@ -23,7 +23,7 @@
   "containerDefinitions": [
     {
       "name": "php-app",
-      "image": "514438259876.dkr.ecr.us-east-2.amazonaws.com/satish-php-fpm",
+      "image": "514438259876.dkr.ecr.us-east-2.amazonaws.com/gl-php-fpm",
       "essential": true,
       "memoryReservation": 512,
       "mountPoints": [
@@ -45,9 +45,9 @@
     },
     {
       "name": "nginx-proxy",
-      "image": "514438259876.dkr.ecr.us-east-2.amazonaws.com/satish-nginx:latest",
+      "image": "514438259876.dkr.ecr.us-east-2.amazonaws.com/gl-nginx",
       "essential": true,
-      "memory": 512,
+      "memory": 128,
       "portMappings": [
         {
           "hostPort": 80,
